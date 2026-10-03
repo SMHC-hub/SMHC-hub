@@ -96,7 +96,7 @@
     <!-- Location Pill (185px) -->
     <g transform="translate(0, 0)">
       <rect width="185" height="32" rx="9" fill="#131726" stroke="#334155" stroke-width="1"/>
-      <text x="14" y="20" fill="#cbd5e1">📍 Rawalpindi, Pakistan</text>
+      <text x="14" y="20" fill="#cbd5e1">📍 Islamabad, Pakistan</text>
     </g>
     <!-- Repos Pill (145px) -->
     <g transform="translate(195, 0)">
