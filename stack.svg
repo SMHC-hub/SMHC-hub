@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 390" width="100%" height="100%">
   <defs>
-    
     <linearGradient id="stack_aurora" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#22d3ee" />
       <stop offset="50%" stop-color="#a78bfa" />
@@ -15,25 +14,117 @@
     <pattern id="stack_dot_grid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1" fill="#334155" fill-opacity="0.2" />
     </pattern>
-    <radialGradient id="core_glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.9"/>
-      <stop offset="35%" stop-color="#a78bfa" stop-opacity="0.5"/>
-      <stop offset="70%" stop-color="#f472b6" stop-opacity="0.2"/>
+
+    <!-- 3D Specular Badge Gradients & Filters -->
+    <filter id="badge_shadow_3d" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#000" flood-opacity="0.65"/>
+    </filter>
+    <linearGradient id="token_glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#242b45" />
+      <stop offset="50%" stop-color="#141829" />
+      <stop offset="100%" stop-color="#0b0e1b" />
+    </linearGradient>
+    <linearGradient id="token_rim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#64748b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.3"/>
+    </linearGradient>
+    <radialGradient id="ai_core_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.95"/>
+      <stop offset="25%" stop-color="#818cf8" stop-opacity="0.7"/>
+      <stop offset="55%" stop-color="#a78bfa" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#0d0e16" stop-opacity="0"/>
     </radialGradient>
+    <linearGradient id="ai_chip_metal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#d946ef"/>
+    </linearGradient>
 
-    <filter id="stack_blur" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-
-    <!-- Motion Paths for Orbits -->
+    <!-- Motion Paths for 3D Orbits -->
     <!-- Orbit 1 (tilted -20deg) -->
-    <path id="orbit1_path" d="M 210,140 A 135,55 -20 1 0 210,250 A 135,55 -20 1 0 210,140" fill="none"/>
+    <path id="orbit1_path" d="M 210,135 A 138,58 -20 1 0 210,255 A 138,58 -20 1 0 210,135" fill="none"/>
     <!-- Orbit 2 (tilted +25deg) -->
-    <path id="orbit2_path" d="M 210,130 A 155,68 25 1 0 210,260 A 155,68 25 1 0 210,130" fill="none"/>
+    <path id="orbit2_path" d="M 210,125 A 160,70 25 1 0 210,265 A 160,70 25 1 0 210,125" fill="none"/>
     <!-- Orbit 3 (tilted -60deg) -->
-    <path id="orbit3_path" d="M 210,120 A 175,80 -60 1 0 210,270 A 175,80 -60 1 0 210,120" fill="none"/>
+    <path id="orbit3_path" d="M 210,115 A 180,82 -60 1 0 210,275 A 180,82 -60 1 0 210,115" fill="none"/>
+
+    <!-- OFFICIAL REAL-WORLD BRAND LOGOS AS REUSABLE 3D SYMBOLS -->
+    <!-- 1. Real 3D Python Logo -->
+    <g id="logo_python">
+      <circle cx="0" cy="0" r="19" fill="url(#token_glass)" stroke="url(#token_rim)" stroke-width="1.2" filter="url(#badge_shadow_3d)"/>
+      <g transform="scale(0.8) translate(-14, -14)">
+        <!-- Blue top snake -->
+        <path d="M 13.8 2 C 7.5 2 7.9 4.7 7.9 4.7 L 7.9 7.6 L 14 7.6 L 14 8.5 L 5.2 8.5 C 5.2 8.5 2 8.1 2 14.3 C 2 20.5 4.8 20.2 4.8 20.2 L 7.4 20.2 L 7.4 16.6 C 7.4 16.6 7.2 12.4 11.6 12.4 L 17.6 12.4 C 17.6 12.4 21.6 12.5 21.6 8.7 L 21.6 4.9 C 21.6 4.9 22 2 13.8 2 Z" fill="#387eb8"/>
+        <circle cx="10" cy="5" r="1" fill="#fff"/>
+        <!-- Yellow bottom snake -->
+        <path d="M 14.2 26 C 20.5 26 20.1 23.3 20.1 23.3 L 20.1 20.4 L 14 20.4 L 14 19.5 L 22.8 19.5 C 22.8 19.5 26 19.9 26 13.7 C 26 7.5 23.2 7.8 23.2 7.8 L 20.6 7.8 L 20.6 11.4 C 20.6 11.4 20.8 15.6 16.4 15.6 L 10.4 15.6 C 10.4 15.6 6.4 15.5 6.4 19.3 L 6.4 23.1 C 6.4 23.1 6 26 14.2 26 Z" fill="#ffe052"/>
+        <circle cx="18" cy="23" r="1" fill="#fff"/>
+      </g>
+    </g>
+
+    <!-- 2. Real 3D PyTorch Flame Logo -->
+    <g id="logo_pytorch">
+      <circle cx="0" cy="0" r="19" fill="url(#token_glass)" stroke="url(#token_rim)" stroke-width="1.2" filter="url(#badge_shadow_3d)"/>
+      <g transform="scale(0.8) translate(-14, -14)">
+        <path d="M 17.5 5.5 C 15.5 8 13.2 9.5 13.2 13 C 13.2 16.5 16 19.5 19.5 19.5 C 23 19.5 25.8 16.7 25.8 13.2 C 25.8 9.5 22.8 6.5 17.5 5.5 Z" fill="#ee4c2c"/>
+        <circle cx="20.5" cy="5.5" r="1.8" fill="#ee4c2c"/>
+        <path d="M 17 8 C 15.5 9.5 14.5 11 14.5 13 C 14.5 15.5 16.5 17.5 19 17.5 C 21 17.5 22.8 16 23.2 14 C 21 15 19 14.5 18 13 C 17 11.5 17 9.5 17 8 Z" fill="#ff7654"/>
+      </g>
+    </g>
+
+    <!-- 3. Real 3D Docker Whale Logo -->
+    <g id="logo_docker">
+      <circle cx="0" cy="0" r="19" fill="url(#token_glass)" stroke="url(#token_rim)" stroke-width="1.2" filter="url(#badge_shadow_3d)"/>
+      <g transform="scale(0.78) translate(-14, -12)">
+        <!-- Containers -->
+        <rect x="7" y="5" width="3" height="2.5" fill="#0db7ed"/>
+        <rect x="11" y="5" width="3" height="2.5" fill="#0db7ed"/>
+        <rect x="7" y="8.5" width="3" height="2.5" fill="#0db7ed"/>
+        <rect x="11" y="8.5" width="3" height="2.5" fill="#0db7ed"/>
+        <rect x="15" y="8.5" width="3" height="2.5" fill="#0db7ed"/>
+        <rect x="3" y="12" width="3" height="2.5" fill="#0db7ed"/>
+        <rect x="7" y="12" width="3" height="2.5" fill="#0db7ed"/>
+        <rect x="11" y="12" width="3" height="2.5" fill="#0db7ed"/>
+        <rect x="15" y="12" width="3" height="2.5" fill="#0db7ed"/>
+        <!-- Whale Body -->
+        <path d="M 25 14 C 24 13.5 22.5 13.5 21.5 14.2 C 20.8 13.5 19.5 13.5 18.5 13.8 L 1 13.8 C 0.5 17 2.5 21.5 8 21.5 C 15 21.5 19.5 18.5 22.5 15.5 C 24.5 16 26.5 15 27 14 C 26 14.2 25.5 14.1 25 14 Z" fill="#0db7ed"/>
+      </g>
+    </g>
+
+    <!-- 4. Real 3D FastAPI Logo -->
+    <g id="logo_fastapi">
+      <circle cx="0" cy="0" r="19" fill="url(#token_glass)" stroke="url(#token_rim)" stroke-width="1.2" filter="url(#badge_shadow_3d)"/>
+      <circle cx="0" cy="0" r="14" fill="#05998b"/>
+      <!-- Lightning bolt -->
+      <path d="M 1 -8 L -6 1 L -1 1 L -2 8 L 6 -1 L 1 -1 Z" fill="#ffffff"/>
+    </g>
+
+    <!-- 5. Real 3D React Atom Logo -->
+    <g id="logo_react">
+      <circle cx="0" cy="0" r="21" fill="url(#token_glass)" stroke="#22d3ee" stroke-width="1.4" filter="url(#badge_shadow_3d)"/>
+      <!-- Center nucleus -->
+      <circle cx="0" cy="0" r="3.2" fill="#22d3ee"/>
+      <!-- 3 Elliptical Rings -->
+      <ellipse cx="0" cy="0" rx="14" ry="5.5" fill="none" stroke="#22d3ee" stroke-width="1.2"/>
+      <ellipse cx="0" cy="0" rx="14" ry="5.5" transform="rotate(60)" fill="none" stroke="#22d3ee" stroke-width="1.2"/>
+      <ellipse cx="0" cy="0" rx="14" ry="5.5" transform="rotate(120)" fill="none" stroke="#22d3ee" stroke-width="1.2"/>
+    </g>
+
+    <!-- 6. Real 3D TensorFlow Logo -->
+    <g id="logo_tensorflow">
+      <circle cx="0" cy="0" r="19" fill="url(#token_glass)" stroke="url(#token_rim)" stroke-width="1.2" filter="url(#badge_shadow_3d)"/>
+      <g transform="scale(0.85) translate(-12, -12)">
+        <polygon points="12,1 21,6 21,11 17,9 17,21 13,19 13,7 7,10 7,6" fill="#ff6f00"/>
+        <polygon points="12,1 3,6 3,11 7,9 7,21 11,19 11,7 17,10 17,6" fill="#ffa800" opacity="0.85"/>
+      </g>
+    </g>
+
+    <!-- 7. Real 3D TypeScript Logo -->
+    <g id="logo_typescript">
+      <rect x="-16" y="-16" width="32" height="32" rx="7" fill="#3178c6" filter="url(#badge_shadow_3d)"/>
+      <rect x="-14" y="-14" width="28" height="28" rx="5" fill="none" stroke="#60a5fa" stroke-width="1" opacity="0.6"/>
+      <text x="3" y="10" font-family="'JetBrains Mono', Consolas, sans-serif" font-size="16" font-weight="900" fill="#ffffff" text-anchor="middle">TS</text>
+    </g>
   </defs>
 
   <style>
@@ -45,131 +136,166 @@
   <rect width="880" height="390" rx="18" fill="#0d0e16" stroke="url(#stack_border_grad)" stroke-width="1.2"/>
   <rect width="880" height="390" rx="18" fill="url(#stack_dot_grid)"/>
 
-  <!-- ============================================== -->
-  <!-- LEFT: TILTED ORBITS AROUND GLOWING ATOM CORE   -->
-  <!-- ============================================== -->
+  <!-- ==================================================== -->
+  <!-- LEFT: 3D REAL-WORLD BRAND LOGOS AROUND 3D AI CORE    -->
+  <!-- ==================================================== -->
   <g transform="translate(10, 0)">
-    <!-- Core Ambient Glow -->
-    <circle cx="210" cy="195" r="95" fill="url(#core_glow)"/>
-    <circle cx="210" cy="195" r="26" fill="#131728" stroke="#22d3ee" stroke-width="1.5">
-      <animate attributeName="stroke" values="#22d3ee;#a78bfa;#f472b6;#22d3ee" dur="6s" repeatCount="indefinite"/>
-    </circle>
-    <!-- Core Center Symbol -->
-    <text x="210" y="202" class="font-sans" font-size="20" text-anchor="middle" fill="#fff">⚡</text>
+    <!-- Deep Ambient Glow from Core -->
+    <circle cx="210" cy="195" r="105" fill="url(#ai_core_glow)"/>
 
-    <!-- Orbit 1 Ellipse Path Line -->
-    <ellipse cx="210" cy="195" rx="135" ry="55" transform="rotate(-20 210 195)" fill="none" stroke="#334155" stroke-dasharray="4 4" stroke-width="1.2" opacity="0.6"/>
-    <!-- Orbit 2 Ellipse Path Line -->
-    <ellipse cx="210" cy="195" rx="155" ry="68" transform="rotate(25 210 195)" fill="none" stroke="#475569" stroke-dasharray="4 4" stroke-width="1.2" opacity="0.6"/>
-    <!-- Orbit 3 Ellipse Path Line -->
-    <ellipse cx="210" cy="195" rx="175" ry="80" transform="rotate(-60 210 195)" fill="none" stroke="#334155" stroke-dasharray="4 4" stroke-width="1.2" opacity="0.5"/>
+    <!-- Tilted Elliptical 3D Orbit Guides -->
+    <ellipse cx="210" cy="195" rx="138" ry="58" transform="rotate(-20 210 195)" fill="none" stroke="#22d3ee" stroke-opacity="0.3" stroke-dasharray="6 4" stroke-width="1.4"/>
+    <ellipse cx="210" cy="195" rx="160" ry="70" transform="rotate(25 210 195)" fill="none" stroke="#a78bfa" stroke-opacity="0.3" stroke-dasharray="6 4" stroke-width="1.4"/>
+    <ellipse cx="210" cy="195" rx="180" ry="82" transform="rotate(-60 210 195)" fill="none" stroke="#f472b6" stroke-opacity="0.25" stroke-dasharray="6 4" stroke-width="1.4"/>
 
-    <!-- TRAVELING ICONS -->
-    <!-- Icon 1: Python on Orbit 1 -->
+    <!-- ======================================= -->
+    <!-- CENTER: 3D REAL-WORLD AI MICROPROCESSOR -->
+    <!-- ======================================= -->
+    <g transform="translate(210, 195)">
+      <!-- Pulsing Aura Waves -->
+      <circle cx="0" cy="0" r="32" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0.6">
+        <animate attributeName="r" values="30;46;30" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.6;0;0.6" dur="3s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- 3D Beveled Outer Chip Case -->
+      <polygon points="0,-30 26,-15 26,15 0,30 -26,15 -26,-15" fill="#111628" stroke="url(#ai_chip_metal)" stroke-width="2" filter="url(#badge_shadow_3d)">
+        <animateTransform attributeName="transform" type="rotate" values="0;360" dur="20s" repeatCount="indefinite"/>
+      </polygon>
+      <!-- Core Inner Chamber -->
+      <circle cx="0" cy="0" r="18" fill="#090d1a" stroke="#22d3ee" stroke-width="1.5"/>
+      <!-- Glowing Center AI Emblem -->
+      <text x="0" y="6" class="font-mono" font-size="14" font-weight="900" fill="#22d3ee" text-anchor="middle" letter-spacing="1">AI</text>
+    </g>
+
+    <!-- ======================================= -->
+    <!-- ORBITING 3D LOGOS WITH WAVING MOTION    -->
+    <!-- ======================================= -->
+
+    <!-- 1. Real 3D Python on Orbit 1 -->
     <g>
       <animateMotion dur="14s" repeatCount="indefinite">
         <mpath href="#orbit1_path"/>
       </animateMotion>
-      <circle cx="0" cy="0" r="15" fill="#151b2e" stroke="#38bdf8" stroke-width="1.5"/>
-      <text x="0" y="5" class="font-sans" font-size="12" text-anchor="middle" font-weight="800" fill="#38bdf8">Py</text>
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0,-3; 0,3; 0,-3" dur="2.5s" repeatCount="indefinite"/>
+        <use href="#logo_python"/>
+      </g>
     </g>
 
-    <!-- Icon 2: PyTorch on Orbit 2 -->
+    <!-- 2. Real 3D PyTorch on Orbit 2 -->
     <g>
       <animateMotion dur="18s" repeatCount="indefinite">
         <mpath href="#orbit2_path"/>
       </animateMotion>
-      <circle cx="0" cy="0" r="16" fill="#151b2e" stroke="#f97316" stroke-width="1.5"/>
-      <text x="0" y="5" class="font-sans" font-size="11" text-anchor="middle" font-weight="800" fill="#f97316">🔥</text>
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0,3; 0,-3; 0,3" dur="2.8s" repeatCount="indefinite"/>
+        <use href="#logo_pytorch"/>
+      </g>
     </g>
 
-    <!-- Icon 3: Docker on Orbit 3 -->
+    <!-- 3. Real 3D Docker on Orbit 3 -->
     <g>
       <animateMotion dur="22s" repeatCount="indefinite">
         <mpath href="#orbit3_path"/>
       </animateMotion>
-      <circle cx="0" cy="0" r="15" fill="#151b2e" stroke="#0ea5e9" stroke-width="1.5"/>
-      <text x="0" y="5" class="font-sans" font-size="12" text-anchor="middle" font-weight="800" fill="#0ea5e9">🐳</text>
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0,-4; 0,4; 0,-4" dur="3s" repeatCount="indefinite"/>
+        <use href="#logo_docker"/>
+      </g>
     </g>
 
-    <!-- Icon 4: FastAPI on Orbit 2 (offset) -->
+    <!-- 4. Real 3D FastAPI on Orbit 2 (Offset) -->
     <g>
       <animateMotion dur="18s" begin="-9s" repeatCount="indefinite">
         <mpath href="#orbit2_path"/>
       </animateMotion>
-      <circle cx="0" cy="0" r="15" fill="#151b2e" stroke="#10b981" stroke-width="1.5"/>
-      <text x="0" y="5" class="font-sans" font-size="11" text-anchor="middle" font-weight="800" fill="#10b981">⚡</text>
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0,3; 0,-3; 0,3" dur="2.6s" repeatCount="indefinite"/>
+        <use href="#logo_fastapi"/>
+      </g>
     </g>
 
-    <!-- Icon 5: REACT with TWO ORBITING MOONS on Orbit 1 -->
+    <!-- 5. Real 3D TensorFlow on Orbit 3 (Offset) -->
+    <g>
+      <animateMotion dur="22s" begin="-11s" repeatCount="indefinite">
+        <mpath href="#orbit3_path"/>
+      </animateMotion>
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0,-3; 0,3; 0,-3" dur="3.2s" repeatCount="indefinite"/>
+        <use href="#logo_tensorflow"/>
+      </g>
+    </g>
+
+    <!-- 6. Real 3D React Atom with 2 Orbiting Satellite Moons on Orbit 1 -->
     <g>
       <animateMotion dur="14s" begin="-7s" repeatCount="indefinite">
         <mpath href="#orbit1_path"/>
       </animateMotion>
-      <!-- React Icon Base -->
-      <circle cx="0" cy="0" r="17" fill="#151b2e" stroke="#22d3ee" stroke-width="1.8"/>
-      <text x="0" y="5" class="font-sans" font-size="13" text-anchor="middle" font-weight="800" fill="#22d3ee">⚛</text>
-
-      <!-- Moon 1: TypeScript orbiting React -->
       <g>
-        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="3.5s" repeatCount="indefinite"/>
-        <circle cx="28" cy="0" r="7" fill="#1e293b" stroke="#3b82f6" stroke-width="1"/>
-        <text x="28" y="3" class="font-mono" font-size="6.5" text-anchor="middle" font-weight="700" fill="#93c5fd">TS</text>
-      </g>
+        <animateTransform attributeName="transform" type="translate" values="0,3; 0,-3; 0,3" dur="2.4s" repeatCount="indefinite"/>
+        <!-- React Base Badge -->
+        <use href="#logo_react"/>
 
-      <!-- Moon 2: Next.js orbiting React (opposite angle) -->
-      <g>
-        <animateTransform attributeName="transform" type="rotate" from="180 0 0" to="540 0 0" dur="3.5s" repeatCount="indefinite"/>
-        <circle cx="28" cy="0" r="7" fill="#1e293b" stroke="#f472b6" stroke-width="1"/>
-        <text x="28" y="3" class="font-mono" font-size="6.5" text-anchor="middle" font-weight="700" fill="#f472b6">N</text>
+        <!-- Moon 1: TypeScript orbiting React -->
+        <g>
+          <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="3.5s" repeatCount="indefinite"/>
+          <g transform="translate(30, 0)">
+            <rect x="-8" y="-8" width="16" height="16" rx="4" fill="#3178c6" stroke="#60a5fa" stroke-width="1"/>
+            <text x="0" y="4" font-family="'JetBrains Mono', Consolas, sans-serif" font-size="8.5" font-weight="900" fill="#fff" text-anchor="middle">TS</text>
+          </g>
+        </g>
+
+        <!-- Moon 2: Next.js orbiting React (Opposite side) -->
+        <g>
+          <animateTransform attributeName="transform" type="rotate" from="180 0 0" to="540 0 0" dur="3.5s" repeatCount="indefinite"/>
+          <g transform="translate(30, 0)">
+            <circle cx="0" cy="0" r="8" fill="#000" stroke="#f472b6" stroke-width="1"/>
+            <text x="0" y="3.5" font-family="'JetBrains Mono', Consolas, sans-serif" font-size="8" font-weight="900" fill="#fff" text-anchor="middle">▲</text>
+          </g>
+        </g>
       </g>
     </g>
 
-    <!-- Label Under Orbit Area -->
-    <text x="210" y="348" class="font-mono" font-size="11" fill="#64748b" text-anchor="middle" letter-spacing="1">ORBITING TECH ATOM // ZERO COLLISION</text>
+    <!-- Orbit Legend -->
+    <text x="210" y="352" class="font-mono" font-size="11" fill="#64748b" text-anchor="middle" letter-spacing="1">3D ATOM CORE // MULTI-TIER ORBITS</text>
   </g>
 
   <!-- ============================================== -->
-  <!-- RIGHT: GROUPED CHIP GRID WITH SEQUENTIAL GLOWS -->
+  <!-- RIGHT: GROUPED CHIP GRID WITH ACTIVE PHOSPHOR  -->
   <!-- ============================================== -->
   <g transform="translate(425, 25)">
-    <!-- Header -->
     <text x="0" y="16" class="font-sans" font-size="16" font-weight="700" fill="#f1f5f9">Technical Ecosystem &amp; Stack</text>
     <text x="0" y="32" class="font-mono" font-size="11" fill="#64748b">CHIP MATRIX WITH ACTIVE SEQUENTIAL PHOSPHOR</text>
 
-    <!-- Group 1: AI & Deep Learning -->
+    <!-- Group 1: AI & Vision -->
     <g transform="translate(0, 52)">
       <text x="0" y="0" class="font-mono" font-size="10.5" font-weight="700" fill="#22d3ee" letter-spacing="1">01 / AI &amp; COMPUTER VISION</text>
       <g transform="translate(0, 10)">
-        <!-- Chip 1: PyTorch -->
         <g transform="translate(0, 0)">
           <rect width="84" height="26" rx="6" fill="#121626" stroke="#334155" stroke-width="1">
             <animate attributeName="stroke" values="#334155;#22d3ee;#334155" dur="4s" begin="0s" repeatCount="indefinite"/>
           </rect>
           <text x="42" y="17" class="font-mono" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle">PyTorch</text>
         </g>
-        <!-- Chip 2: TensorFlow -->
         <g transform="translate(90, 0)">
           <rect width="102" height="26" rx="6" fill="#121626" stroke="#334155" stroke-width="1">
             <animate attributeName="stroke" values="#334155;#22d3ee;#334155" dur="4s" begin="0.4s" repeatCount="indefinite"/>
           </rect>
           <text x="51" y="17" class="font-mono" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle">TensorFlow</text>
         </g>
-        <!-- Chip 3: OpenCV -->
         <g transform="translate(198, 0)">
           <rect width="80" height="26" rx="6" fill="#121626" stroke="#334155" stroke-width="1">
             <animate attributeName="stroke" values="#334155;#22d3ee;#334155" dur="4s" begin="0.8s" repeatCount="indefinite"/>
           </rect>
           <text x="40" y="17" class="font-mono" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle">OpenCV</text>
         </g>
-        <!-- Chip 4: MediaPipe -->
         <g transform="translate(284, 0)">
           <rect width="90" height="26" rx="6" fill="#121626" stroke="#334155" stroke-width="1">
             <animate attributeName="stroke" values="#334155;#22d3ee;#334155" dur="4s" begin="1.2s" repeatCount="indefinite"/>
           </rect>
           <text x="45" y="17" class="font-mono" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle">MediaPipe</text>
         </g>
-        <!-- Chip 5: HuggingFace -->
         <g transform="translate(380, 0)">
           <rect width="45" height="26" rx="6" fill="#121626" stroke="#334155" stroke-width="1">
             <animate attributeName="stroke" values="#334155;#22d3ee;#334155" dur="4s" begin="1.6s" repeatCount="indefinite"/>
@@ -183,35 +309,30 @@
     <g transform="translate(0, 126)">
       <text x="0" y="0" class="font-mono" font-size="10.5" font-weight="700" fill="#a78bfa" letter-spacing="1">02 / SYSTEMS &amp; BACKEND</text>
       <g transform="translate(0, 10)">
-        <!-- FastAPI -->
         <g transform="translate(0, 0)">
           <rect width="80" height="26" rx="6" fill="#121626" stroke="#334155" stroke-width="1">
             <animate attributeName="stroke" values="#334155;#a78bfa;#334155" dur="4s" begin="0.2s" repeatCount="indefinite"/>
           </rect>
           <text x="40" y="17" class="font-mono" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle">FastAPI</text>
         </g>
-        <!-- Python -->
         <g transform="translate(86, 0)">
           <rect width="78" height="26" rx="6" fill="#121626" stroke="#334155" stroke-width="1">
             <animate attributeName="stroke" values="#334155;#a78bfa;#334155" dur="4s" begin="0.6s" repeatCount="indefinite"/>
           </rect>
           <text x="39" y="17" class="font-mono" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle">Python</text>
         </g>
-        <!-- React 19 -->
         <g transform="translate(170, 0)">
           <rect width="80" height="26" rx="6" fill="#121626" stroke="#334155" stroke-width="1">
             <animate attributeName="stroke" values="#334155;#a78bfa;#334155" dur="4s" begin="1.0s" repeatCount="indefinite"/>
           </rect>
           <text x="40" y="17" class="font-mono" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle">React 19</text>
         </g>
-        <!-- TypeScript -->
         <g transform="translate(256, 0)">
           <rect width="95" height="26" rx="6" fill="#121626" stroke="#334155" stroke-width="1">
             <animate attributeName="stroke" values="#334155;#a78bfa;#334155" dur="4s" begin="1.4s" repeatCount="indefinite"/>
           </rect>
           <text x="47" y="17" class="font-mono" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle">TypeScript</text>
         </g>
-        <!-- PostgreSQL -->
         <g transform="translate(357, 0)">
           <rect width="68" height="26" rx="6" fill="#121626" stroke="#334155" stroke-width="1">
             <animate attributeName="stroke" values="#334155;#a78bfa;#334155" dur="4s" begin="1.8s" repeatCount="indefinite"/>
@@ -225,35 +346,30 @@
     <g transform="translate(0, 200)">
       <text x="0" y="0" class="font-mono" font-size="10.5" font-weight="700" fill="#f472b6" letter-spacing="1">03 / CLOUD, MLOPS &amp; DEPLOY</text>
       <g transform="translate(0, 10)">
-        <!-- Docker -->
         <g transform="translate(0, 0)">
           <rect width="78" height="26" rx="6" fill="#121626" stroke="#334155" stroke-width="1">
             <animate attributeName="stroke" values="#334155;#f472b6;#334155" dur="4s" begin="0.3s" repeatCount="indefinite"/>
           </rect>
           <text x="39" y="17" class="font-mono" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle">Docker</text>
         </g>
-        <!-- Linux -->
         <g transform="translate(84, 0)">
           <rect width="68" height="26" rx="6" fill="#121626" stroke="#334155" stroke-width="1">
             <animate attributeName="stroke" values="#334155;#f472b6;#334155" dur="4s" begin="0.7s" repeatCount="indefinite"/>
           </rect>
           <text x="34" y="17" class="font-mono" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle">Linux</text>
         </g>
-        <!-- GitHub CI -->
         <g transform="translate(158, 0)">
           <rect width="100" height="26" rx="6" fill="#121626" stroke="#334155" stroke-width="1">
             <animate attributeName="stroke" values="#334155;#f472b6;#334155" dur="4s" begin="1.1s" repeatCount="indefinite"/>
           </rect>
           <text x="50" y="17" class="font-mono" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle">GitHub Actions</text>
         </g>
-        <!-- Railway / Cloud -->
         <g transform="translate(264, 0)">
           <rect width="80" height="26" rx="6" fill="#121626" stroke="#334155" stroke-width="1">
             <animate attributeName="stroke" values="#334155;#f472b6;#334155" dur="4s" begin="1.5s" repeatCount="indefinite"/>
           </rect>
           <text x="40" y="17" class="font-mono" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle">Railway</text>
         </g>
-        <!-- Render -->
         <g transform="translate(350, 0)">
           <rect width="75" height="26" rx="6" fill="#121626" stroke="#334155" stroke-width="1">
             <animate attributeName="stroke" values="#334155;#f472b6;#334155" dur="4s" begin="1.9s" repeatCount="indefinite"/>
@@ -267,28 +383,24 @@
     <g transform="translate(0, 274)">
       <text x="0" y="0" class="font-mono" font-size="10.5" font-weight="700" fill="#34d399" letter-spacing="1">04 / OBSERVABILITY &amp; EVALUATION</text>
       <g transform="translate(0, 10)">
-        <!-- AgentPulse -->
         <g transform="translate(0, 0)">
           <rect width="98" height="26" rx="6" fill="#121626" stroke="#334155" stroke-width="1">
             <animate attributeName="stroke" values="#334155;#34d399;#334155" dur="4s" begin="0.1s" repeatCount="indefinite"/>
           </rect>
           <text x="49" y="17" class="font-mono" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle">AgentPulse</text>
         </g>
-        <!-- Groq LLM -->
         <g transform="translate(104, 0)">
           <rect width="85" height="26" rx="6" fill="#121626" stroke="#334155" stroke-width="1">
             <animate attributeName="stroke" values="#334155;#34d399;#334155" dur="4s" begin="0.5s" repeatCount="indefinite"/>
           </rect>
           <text x="42" y="17" class="font-mono" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle">Groq LLM</text>
         </g>
-        <!-- Scikit-Learn -->
         <g transform="translate(195, 0)">
           <rect width="98" height="26" rx="6" fill="#121626" stroke="#334155" stroke-width="1">
             <animate attributeName="stroke" values="#334155;#34d399;#334155" dur="4s" begin="0.9s" repeatCount="indefinite"/>
           </rect>
           <text x="49" y="17" class="font-mono" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle">Scikit-Learn</text>
         </g>
-        <!-- NumPy & Pandas -->
         <g transform="translate(299, 0)">
           <rect width="126" height="26" rx="6" fill="#121626" stroke="#334155" stroke-width="1">
             <animate attributeName="stroke" values="#334155;#34d399;#334155" dur="4s" begin="1.3s" repeatCount="indefinite"/>
