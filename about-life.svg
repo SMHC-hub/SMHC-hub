@@ -1,0 +1,248 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 370" width="100%" height="100%">
+  <defs>
+    
+    <linearGradient id="about_aurora" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="50%" stop-color="#a78bfa" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+    <linearGradient id="about_border_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.6"/>
+      <stop offset="35%" stop-color="#a78bfa" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#f472b6" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.2"/>
+    </linearGradient>
+    <pattern id="about_dot_grid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#334155" fill-opacity="0.2" />
+    </pattern>
+
+    <filter id="about_glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', 'SF Mono', Consolas, Menlo, monospace; }
+  </style>
+
+  <!-- Canvas Outer Background -->
+  <rect width="880" height="370" rx="18" fill="#0d0e16" stroke="url(#about_border_grad)" stroke-width="1.2"/>
+  <rect width="880" height="370" rx="18" fill="url(#about_dot_grid)"/>
+
+  <!-- ============================================== -->
+  <!-- LEFT CARD: FAKE BROWSER & CAPABILITY ROWS       -->
+  <!-- ============================================== -->
+  <g transform="translate(30, 20)">
+    <!-- Browser Card Container -->
+    <rect width="395" height="330" rx="14" fill="#080911" stroke="#1e293b" stroke-width="1"/>
+    
+    <!-- Browser Header -->
+    <path d="M 0 14 C 0 6.268 6.268 0 14 0 L 381 0 C 388.732 0 395 6.268 395 14 L 395 38 L 0 38 Z" fill="#111320"/>
+    <line x1="0" y1="38" x2="395" y2="38" stroke="#1e293b" stroke-width="1"/>
+    
+    <!-- 3 macOS dots -->
+    <circle cx="20" cy="19" r="5" fill="#ef4444"/>
+    <circle cx="36" cy="19" r="5" fill="#f59e0b"/>
+    <circle cx="52" cy="19" r="5" fill="#10b981"/>
+    
+    <!-- URL Bar -->
+    <rect x="75" y="8" width="280" height="22" rx="6" fill="#080911" stroke="#1e293b" stroke-width="1"/>
+    <!-- Lock icon -->
+    <path d="M 87 19 L 87 16 C 87 14 88.5 12.5 90.5 12.5 C 92.5 12.5 94 14 94 16 L 94 19 M 85 19 L 96 19 L 96 25 L 85 25 Z" fill="none" stroke="#22d3ee" stroke-width="1.2"/>
+    <text x="104" y="23" class="font-mono" font-size="10.5" fill="#94a3b8">https://smhc.dev/capabilities</text>
+    <!-- Blinking Cursor -->
+    <line x1="284" y1="12" x2="284" y2="24" stroke="#22d3ee" stroke-width="1.5">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- Card Content -->
+    <!-- Section Title -->
+    <text x="24" y="68" class="font-sans" font-size="15" font-weight="700" fill="#f1f5f9">Technical Architecture</text>
+    <text x="24" y="84" class="font-mono" font-size="11" fill="#64748b">PRODUCTION-GRADE AI &amp; FULL-STACK SYSTEMS</text>
+
+    <!-- Capability Row 1 -->
+    <g transform="translate(24, 102)">
+      <rect width="347" height="64" rx="10" fill="#121626" stroke="#1e293b" stroke-width="1"/>
+      <!-- Icon Tile -->
+      <rect x="10" y="10" width="44" height="44" rx="8" fill="#1a2035" stroke="#22d3ee" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="32" y="38" class="font-sans" font-size="20" text-anchor="middle">🧠</text>
+      <!-- Texts -->
+      <text x="64" y="27" class="font-sans" font-size="13" font-weight="700" fill="#e2e8f0">Multimodal Deep Learning &amp; Vision</text>
+      <text x="64" y="46" class="font-sans" font-size="11" fill="#94a3b8">Score fusion, CBAM attention, UNet &amp; biometrics</text>
+    </g>
+
+    <!-- Capability Row 2 -->
+    <g transform="translate(24, 174)">
+      <rect width="347" height="64" rx="10" fill="#121626" stroke="#1e293b" stroke-width="1"/>
+      <!-- Icon Tile -->
+      <rect x="10" y="10" width="44" height="44" rx="8" fill="#1a2035" stroke="#a78bfa" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="32" y="38" class="font-sans" font-size="20" text-anchor="middle">⚡</text>
+      <!-- Texts -->
+      <text x="64" y="27" class="font-sans" font-size="13" font-weight="700" fill="#e2e8f0">High-Throughput APIs &amp; Microservices</text>
+      <text x="64" y="46" class="font-sans" font-size="11" fill="#94a3b8">FastAPI async engines, React 19, Docker &amp; SQL</text>
+    </g>
+
+    <!-- Capability Row 3 -->
+    <g transform="translate(24, 246)">
+      <rect width="347" height="64" rx="10" fill="#121626" stroke="#1e293b" stroke-width="1"/>
+      <!-- Icon Tile -->
+      <rect x="10" y="10" width="44" height="44" rx="8" fill="#1a2035" stroke="#f472b6" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="32" y="38" class="font-sans" font-size="20" text-anchor="middle">📡</text>
+      <!-- Texts -->
+      <text x="64" y="27" class="font-sans" font-size="13" font-weight="700" fill="#e2e8f0">Behavioral Observability &amp; Testing</text>
+      <text x="64" y="46" class="font-sans" font-size="11" fill="#94a3b8">Continuous agent evals, LLM judges &amp; CI suites</text>
+    </g>
+  </g>
+
+  <!-- ============================================== -->
+  <!-- RIGHT CARD: HOBBIES CAROUSEL & DAILY RINGS     -->
+  <!-- ============================================== -->
+  <g transform="translate(455, 20)">
+    <!-- Container -->
+    <rect width="395" height="330" rx="14" fill="#080911" stroke="#1e293b" stroke-width="1"/>
+    
+    <!-- Top Instagram-style Segment Progress Bars (6 items, 18s total loop) -->
+    <g transform="translate(20, 16)">
+      <!-- 6 Segments -->
+      <!-- Seg 1: Gaming (0 - 3s) -->
+      <rect x="0" y="0" width="55" height="3.5" rx="2" fill="#1e293b"/>
+      <rect x="0" y="0" width="55" height="3.5" rx="2" fill="#22d3ee" opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.16;0.18" dur="18s" repeatCount="indefinite"/>
+        <animate attributeName="width" values="0;55;55;0" keyTimes="0;0.16;0.165;0.18" dur="18s" repeatCount="indefinite"/>
+      </rect>
+
+      <!-- Seg 2: Open Source (3 - 6s) -->
+      <rect x="60" y="0" width="55" height="3.5" rx="2" fill="#1e293b"/>
+      <rect x="60" y="0" width="55" height="3.5" rx="2" fill="#22d3ee" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.16;0.18;0.33;0.35" dur="18s" repeatCount="indefinite"/>
+        <animate attributeName="width" values="0;0;55;55;0" keyTimes="0;0.16;0.33;0.335;0.35" dur="18s" repeatCount="indefinite"/>
+      </rect>
+
+      <!-- Seg 3: Sci-Fi (6 - 9s) -->
+      <rect x="120" y="0" width="55" height="3.5" rx="2" fill="#1e293b"/>
+      <rect x="120" y="0" width="55" height="3.5" rx="2" fill="#22d3ee" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.33;0.35;0.50;0.52" dur="18s" repeatCount="indefinite"/>
+        <animate attributeName="width" values="0;0;55;55;0" keyTimes="0;0.33;0.50;0.505;0.52" dur="18s" repeatCount="indefinite"/>
+      </rect>
+
+      <!-- Seg 4: Research (9 - 12s) -->
+      <rect x="180" y="0" width="55" height="3.5" rx="2" fill="#1e293b"/>
+      <rect x="180" y="0" width="55" height="3.5" rx="2" fill="#22d3ee" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.50;0.52;0.66;0.68" dur="18s" repeatCount="indefinite"/>
+        <animate attributeName="width" values="0;0;55;55;0" keyTimes="0;0.50;0.66;0.665;0.68" dur="18s" repeatCount="indefinite"/>
+      </rect>
+
+      <!-- Seg 5: Coffee (12 - 15s) -->
+      <rect x="240" y="0" width="55" height="3.5" rx="2" fill="#1e293b"/>
+      <rect x="240" y="0" width="55" height="3.5" rx="2" fill="#22d3ee" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.66;0.68;0.83;0.85" dur="18s" repeatCount="indefinite"/>
+        <animate attributeName="width" values="0;0;55;55;0" keyTimes="0;0.66;0.83;0.835;0.85" dur="18s" repeatCount="indefinite"/>
+      </rect>
+
+      <!-- Seg 6: Hiking (15 - 18s) -->
+      <rect x="300" y="0" width="55" height="3.5" rx="2" fill="#1e293b"/>
+      <rect x="300" y="0" width="55" height="3.5" rx="2" fill="#22d3ee" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.83;0.85;0.98;1" dur="18s" repeatCount="indefinite"/>
+        <animate attributeName="width" values="0;0;55;55;0" keyTimes="0;0.83;0.98;0.99;1" dur="18s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Carousel Header -->
+    <text x="24" y="52" class="font-sans" font-size="15" font-weight="700" fill="#f1f5f9">Life, Rhythms &amp; Hobbies</text>
+    <text x="24" y="68" class="font-mono" font-size="11" fill="#64748b">BEYOND THE TERMINAL</text>
+
+    <!-- Cycling Hobby Slides Box -->
+    <g transform="translate(24, 82)">
+      <rect width="347" height="110" rx="12" fill="#121626" stroke="#1e293b" stroke-width="1"/>
+
+      <!-- Slide 1: Gaming -->
+      <g opacity="1">
+        <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" keyTimes="0;0.14;0.17;0.84;0.87;0.97;0.98;0.99;1" dur="18s" repeatCount="indefinite"/>
+        <text x="20" y="42" class="font-sans" font-size="28">🎮</text>
+        <text x="64" y="38" class="font-sans" font-size="16" font-weight="700" fill="#38bdf8">Competitive Tactical Gaming</text>
+        <text x="64" y="60" class="font-sans" font-size="12" fill="#94a3b8">Competitive FPS tactics, mechanics optimization,</text>
+        <text x="64" y="78" class="font-sans" font-size="12" fill="#94a3b8">and exploring procedural game systems.</text>
+      </g>
+
+      <!-- Slide 2: Open Source -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0" keyTimes="0;0.15;0.18;0.31;0.34;0.97;0.98;0.99;1" dur="18s" repeatCount="indefinite"/>
+        <text x="20" y="42" class="font-sans" font-size="28">⚡</text>
+        <text x="64" y="38" class="font-sans" font-size="16" font-weight="700" fill="#22d3ee">Open Source Building</text>
+        <text x="64" y="60" class="font-sans" font-size="12" fill="#94a3b8">Clean reproducible benchmarks, medical biometrics,</text>
+        <text x="64" y="78" class="font-sans" font-size="12" fill="#94a3b8">and transparent AI model evaluation tooling.</text>
+      </g>
+
+      <!-- Slide 3: Sci-Fi -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0" keyTimes="0;0.32;0.35;0.48;0.51;0.97;0.98;0.99;1" dur="18s" repeatCount="indefinite"/>
+        <text x="20" y="42" class="font-sans" font-size="28">🚀</text>
+        <text x="64" y="38" class="font-sans" font-size="16" font-weight="700" fill="#a78bfa">Sci-Fi &amp; Cybernetics</text>
+        <text x="64" y="60" class="font-sans" font-size="12" fill="#94a3b8">Hard science fiction, cybernetic interfaces, and</text>
+        <text x="64" y="78" class="font-sans" font-size="12" fill="#94a3b8">speculative autonomous machine intelligences.</text>
+      </g>
+
+      <!-- Slide 4: AI Research -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0" keyTimes="0;0.49;0.52;0.64;0.67;0.97;0.98;0.99;1" dur="18s" repeatCount="indefinite"/>
+        <text x="20" y="42" class="font-sans" font-size="28">🔬</text>
+        <text x="64" y="38" class="font-sans" font-size="16" font-weight="700" fill="#c084fc">Deep Research &amp; Papers</text>
+        <text x="64" y="60" class="font-sans" font-size="12" fill="#94a3b8">Multi-modal score fusion mathematics, Grad-CAM,</text>
+        <text x="64" y="78" class="font-sans" font-size="12" fill="#94a3b8">and code-switching NLP degradation benchmarks.</text>
+      </g>
+
+      <!-- Slide 5: Coffee Brewing -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0" keyTimes="0;0.65;0.68;0.81;0.84;0.97;0.98;0.99;1" dur="18s" repeatCount="indefinite"/>
+        <text x="20" y="42" class="font-sans" font-size="28">☕</text>
+        <text x="64" y="38" class="font-sans" font-size="16" font-weight="700" fill="#f472b6">Artisan Coffee Brewing</text>
+        <text x="64" y="60" class="font-sans" font-size="12" fill="#94a3b8">Dialing in precise extraction ratios with V60,</text>
+        <text x="64" y="78" class="font-sans" font-size="12" fill="#94a3b8">AeroPress and single-origin roast varieties.</text>
+      </g>
+
+      <!-- Slide 6: Hiking -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0" keyTimes="0;0.82;0.85;0.97;0.99;1;1;1;1" dur="18s" repeatCount="indefinite"/>
+        <text x="20" y="42" class="font-sans" font-size="28">🏔️</text>
+        <text x="64" y="38" class="font-sans" font-size="16" font-weight="700" fill="#34d399">High-Altitude Trekking</text>
+        <text x="64" y="60" class="font-sans" font-size="12" fill="#94a3b8">Exploring rugged northern Pakistan trails, ridge</text>
+        <text x="64" y="78" class="font-sans" font-size="12" fill="#94a3b8">scrambling, and refreshing endurance hikes.</text>
+      </g>
+    </g>
+
+    <!-- Bottom: 3 Daily Activity Rings (Apple Watch style) -->
+    <g transform="translate(24, 212)">
+      <!-- Ring 1: Code (Cyan) -->
+      <g transform="translate(45, 45)">
+        <circle cx="0" cy="0" r="32" fill="none" stroke="#1e293b" stroke-width="7"/>
+        <circle cx="0" cy="0" r="32" fill="none" stroke="#22d3ee" stroke-width="7" stroke-linecap="round" stroke-dasharray="201" stroke-dashoffset="201" transform="rotate(-90)">
+          <animate attributeName="stroke-dashoffset" values="201;10" dur="2.5s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+        </circle>
+        <text x="0" y="4" class="font-mono" font-size="11" font-weight="700" fill="#22d3ee" text-anchor="middle">95%</text>
+        <text x="0" y="52" class="font-mono" font-size="10" fill="#94a3b8" text-anchor="middle">CODE</text>
+      </g>
+
+      <!-- Ring 2: Research (Violet) -->
+      <g transform="translate(173, 45)">
+        <circle cx="0" cy="0" r="32" fill="none" stroke="#1e293b" stroke-width="7"/>
+        <circle cx="0" cy="0" r="32" fill="none" stroke="#a78bfa" stroke-width="7" stroke-linecap="round" stroke-dasharray="201" stroke-dashoffset="201" transform="rotate(-90)">
+          <animate attributeName="stroke-dashoffset" values="201;24" dur="2.5s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+        </circle>
+        <text x="0" y="4" class="font-mono" font-size="11" font-weight="700" fill="#a78bfa" text-anchor="middle">88%</text>
+        <text x="0" y="52" class="font-mono" font-size="10" fill="#94a3b8" text-anchor="middle">RESEARCH</text>
+      </g>
+
+      <!-- Ring 3: Caffeine (Pink) -->
+      <g transform="translate(301, 45)">
+        <circle cx="0" cy="0" r="32" fill="none" stroke="#1e293b" stroke-width="7"/>
+        <circle cx="0" cy="0" r="32" fill="none" stroke="#f472b6" stroke-width="7" stroke-linecap="round" stroke-dasharray="201" stroke-dashoffset="201" transform="rotate(-90)">
+          <animate attributeName="stroke-dashoffset" values="201;0" dur="2.5s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+        </circle>
+        <text x="0" y="4" class="font-mono" font-size="11" font-weight="700" fill="#f472b6" text-anchor="middle">100%</text>
+        <text x="0" y="52" class="font-mono" font-size="10" fill="#94a3b8" text-anchor="middle">CAFFEINE</text>
+      </g>
+    </g>
+  </g>
+</svg>
