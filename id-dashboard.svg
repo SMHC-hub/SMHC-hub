@@ -204,10 +204,10 @@
       <!-- Bar 3: Glaucoma FYP -->
       <g transform="translate(0, 106)">
         <text x="0" y="12" class="font-mono" font-size="11" font-weight="600" fill="#cbd5e1">glaucoma-detection-fyp (EfficientNet-B3 + CBAM)</text>
-        <text x="540" y="12" class="font-mono" font-size="11" font-weight="700" fill="#22d3ee" text-anchor="end">97.8% AUC</text>
+        <text x="540" y="12" class="font-mono" font-size="11" font-weight="700" fill="#22d3ee" text-anchor="end">0.927 AUC</text>
         <rect x="0" y="18" width="540" height="6" rx="3" fill="#161b2e"/>
-        <rect x="0" y="18" width="528" height="6" rx="3" fill="url(#id_aurora)">
-          <animate attributeName="width" values="0;528" dur="1.8s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+        <rect x="0" y="18" width="501" height="6" rx="3" fill="url(#id_aurora)">
+          <animate attributeName="width" values="0;501" dur="1.8s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
         </rect>
       </g>
 

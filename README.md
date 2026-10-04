@@ -111,7 +111,7 @@ Contactless near-infrared (NIR) palm-vein recognition system and role-based biom
 
 | Project | What | Technologies |
 | :--- | :--- | :--- |
-| [**People-AI**](https://github.com/SMHC-hub/People-AI) | Workforce attrition prediction with XGBoost and SHAP explainability (ROC-AUC 0.942 on synthetic data). | `Python` `FastAPI` `XGBoost` `SHAP` `React` |
+| [**People-AI**](https://github.com/SMHC-hub/People-AI) | Workforce attrition prediction with XGBoost and SHAP explainability (ROC-AUC 0.942 on synthetic data). | `Vue 3` `Laravel 11` `FastAPI` `XGBoost` `SHAP` |
 | [**deepfake-detection**](https://github.com/SMHC-hub/deepfake-detection) | Multimodal forensic baseline combining residual CNN and frozen Wav2Vec2 (ROC-AUC 0.66 with failure analysis). | `PyTorch` `Wav2Vec2` `OpenCV` `Librosa` |
 | [**Gesture-Recognition**](https://github.com/SMHC-hub/Gesture-Recognition-Live-Using-Custom-Dataset) | Real-time 36-class alphanumeric sign classification using MediaPipe landmark extraction. | `Python` `TensorFlow` `MediaPipe` `OpenCV` |
 
@@ -123,6 +123,8 @@ Contactless near-infrared (NIR) palm-vein recognition system and role-based biom
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white" alt="Vue 3" />
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
@@ -132,7 +134,7 @@ Contactless near-infrared (NIR) palm-vein recognition system and role-based biom
 
 - **Deep Learning & Computer Vision:** `PyTorch` `torchvision` `timm` `Albumentations` `Grad-CAM` `OpenCV` `MediaPipe`
 - **Retrieval & NLP:** `sentence-transformers` `BEIR` `HuggingFace Transformers` `Groq API` `Jupyter`
-- **Systems & Infrastructure:** `FastAPI` `Python` `Docker` `PostgreSQL` `Redis` `React` `Next.js` `Flutter`
+- **Systems & Infrastructure:** `Vue 3` `Laravel 11` `FastAPI` `Python` `Docker` `PostgreSQL` `Redis` `React` `Next.js` `Flutter`
 - **Evaluation & Tabular Modeling:** `scikit-learn` `XGBoost` `SHAP` `Two-Proportion z-Test` `Cohen's kappa`
 
 ---
