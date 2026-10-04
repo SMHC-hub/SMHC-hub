@@ -4,8 +4,8 @@
 
 ### BS Artificial Intelligence · Computer Vision · Retrieval Research · Agent Evaluation
 
-[![Email](https://img.shields.io/badge/Email-syedhuzaifachishty%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:syedhuzaifachishty@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-SMHC--hub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SMHC-hub)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:syedhuzaifachishty@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SMHC-hub)
 [![Kaggle](https://img.shields.io/badge/Kaggle-SASH--VPV%20Dataset-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/sashinoventures/sash-vpv-subcutaneous-vascular-palm-vein-data)
 
 <br/>
