@@ -9,3 +9,5 @@ __pycache__/
 # Local scratch / test
 test_*.png
 test_*.jpg
+
+*.mp4

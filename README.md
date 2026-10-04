@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HERO BANNER -->
-<img src="./hero.svg?v=2" alt="SMHC - Hero Banner" width="100%" />
+<img src="./hero.svg?v=3" alt="SMHC - Hero Banner" width="100%" />
 
 <br/>
 
