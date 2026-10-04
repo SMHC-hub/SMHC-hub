@@ -1,22 +1,22 @@
 <div align="center">
 
 <!-- HERO BANNER -->
-<img src="./hero.svg?v=3" alt="SMHC - Hero Banner" width="100%" />
+<img src="./hero.svg?v=4" alt="SMHC - Hero Banner" width="100%" />
 
 <br/>
 
 <!-- ABOUT & LIFE CAROUSEL -->
-<img src="./about-life.svg?v=2" alt="About & Life Carousel" width="100%" />
+<img src="./about-life.svg?v=4" alt="About & Life Carousel" width="100%" />
 
 <br/>
 
 <!-- ORBITING TECH STACK & CHIP MATRIX -->
-<img src="./stack.svg?v=2" alt="Orbiting Tech Stack Matrix" width="100%" />
+<img src="./stack.svg?v=4" alt="Orbiting Tech Stack Matrix" width="100%" />
 
 <br/>
 
 <!-- ID BADGE & PERFORMANCE DASHBOARD -->
-<img src="./id-dashboard.svg?v=2" alt="Developer ID & System Dashboard" width="100%" />
+<img src="./id-dashboard.svg?v=4" alt="Developer ID & System Dashboard" width="100%" />
 
 <br/>
 
@@ -42,12 +42,12 @@ A curated selection of production-grade systems, biometric architectures, and AI
 <div align="center">
 
 <!-- 3D CONTRIBUTION CITY SKYLINE -->
-<img src="./profile-3d-contrib/profile-night-rainbow.svg?v=2" alt="3D Contribution Skyline" width="100%" />
+<img src="./profile-3d-contrib/profile-night-rainbow.svg?v=4" alt="3D Contribution Skyline" width="100%" />
 
 <br/>
 
 <!-- CONNECT FOOTER -->
-<img src="./connect.svg?v=2" alt="Connect & Collaborate" width="100%" />
+<img src="./connect.svg?v=4" alt="Connect & Collaborate" width="100%" />
 
 </div>
 
