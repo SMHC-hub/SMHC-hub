@@ -11,7 +11,7 @@
 <br/>
 
 <a href="https://github.com/SMHC-hub">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=22D3EE&center=true&vCenter=true&width=620&lines=Computer+Vision+%26+Biometrics;Urdu-English+Retrieval+Research;Agent+Behavioral+Evaluation;Applying+for+MS%2FPhD+Programs" alt="Typing Animation: Research Areas and MS/PhD Applicant" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=22D3EE&center=true&vCenter=true&width=620&lines=Computer+Vision+%26+Biometrics;Urdu-English+Retrieval+Research;Agent+Behavioral+Evaluation;" alt="Typing Animation: Research Areas " />
 </a>
 
 </div>
