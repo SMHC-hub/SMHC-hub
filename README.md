@@ -164,7 +164,7 @@ Question ──> Data/Split Protocol ──> Baseline ──> Model ──> Exte
 ## 🎓 Education
 
 **National University of Technology (NUTECH)** — Islamabad, Pakistan  
-*Bachelor of Science in Artificial Intelligence* | 2021 – 2025
+*Bachelor of Science in Artificial Intelligence* | 2022 – 2026
 
 - **Core Study Areas:** `Computer Vision` `Deep Learning` `Natural Language Processing` `Machine Learning` `Data Structures & Algorithms` `Probability & Mathematical Statistics` `Linear Algebra`
 
