@@ -170,17 +170,18 @@ Question ──> Data/Split Protocol ──> Baseline ──> Model ──> Exte
 
 ---
 
-## 📈 Engineering Velocity & Activity Waveform
+## 🏆 GitHub Milestones & Language Distribution
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SMHC-hub&theme=react-dark&bg_color=0b0f19&color=22d3ee&line=38bdf8&point=f8fafc&area=true&hide_border=true&custom_title=SMHC%20Engineering%20Rhythm%20%26%20Commit%20Frequency" alt="Commit Frequency Graph" width="100%" />
+  <!-- 3D Ranked Milestone Trophies -->
+  <img src="https://github-profile-trophy.vercel.app/?username=SMHC-hub&theme=tokyonight&no-frame=true&margin-w=10&row=1&column=6" alt="SMHC GitHub Trophies" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Focus-Vision%20%7C%20Retrieval%20%7C%20Agents-22d3ee?style=for-the-badge&logo=target&logoColor=black" />
-  <img src="https://img.shields.io/badge/Language%20Core-Python%20%7C%20PyTorch%20%7C%20TS-38bdf8?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/System%20Status-All%20Pipelines%20Passing-10b981?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <!-- Circular Donut Layout instead of linear bars -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SMHC-hub&layout=donut&theme=tokyonight&hide_border=true" alt="Language Distribution Donut" height="190" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SMHC-hub&theme=tokyonight&hide_border=true" alt="Streak Stats" height="190" />
 </div>
 
