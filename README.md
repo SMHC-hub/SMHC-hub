@@ -170,18 +170,8 @@ Question ──> Data/Split Protocol ──> Baseline ──> Model ──> Exte
 
 ---
 
-## 🏆 GitHub Milestones & Language Distribution
+## ⚡ Real-Time System & Code Telemetry
 
 <div align="center">
-  <!-- 3D Ranked Milestone Trophies -->
-  <img src="https://github-profile-trophy.vercel.app/?username=SMHC-hub&theme=tokyonight&no-frame=true&margin-w=10&row=1&column=6" alt="SMHC GitHub Trophies" />
+  <img src="./git-pulse-hud.svg" alt="Live Code Telemetry HUD" width="100%" />
 </div>
-
-<br/>
-
-<div align="center">
-  <!-- Circular Donut Layout instead of linear bars -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SMHC-hub&layout=donut&theme=tokyonight&hide_border=true" alt="Language Distribution Donut" height="190" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SMHC-hub&theme=tokyonight&hide_border=true" alt="Streak Stats" height="190" />
-</div>
-
