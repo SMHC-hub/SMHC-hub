@@ -175,3 +175,26 @@ Question ──> Data/Split Protocol ──> Baseline ──> Model ──> Exte
 <div align="center">
   <img src="./git-pulse-hud.svg" alt="Live Code Telemetry HUD" width="100%" />
 </div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SMHC-hub&layout=donut&theme=tokyonight&hide_border=true" alt="Language Distribution Donut" height="190" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SMHC-hub&theme=tokyonight&hide_border=true" alt="Streak Stats" height="190" />
+</div>
+
+---
+
+## 🤝 Let's Connect
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-syedhuzaifachishty%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:syedhuzaifachishty@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-SMHC--hub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SMHC-hub)
+[![Kaggle](https://img.shields.io/badge/Kaggle-SASH--VPV-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/sashinoventures/sash-vpv-subcutaneous-vascular-palm-vein-data)
+
+<br/>
+
+Empirical evaluation, transparent baselines, and measurable system behavior.
+
+</div>
