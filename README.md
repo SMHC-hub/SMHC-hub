@@ -20,7 +20,7 @@
 
 ## 🧭 About Me
 
-I recently graduated with a BS in Artificial Intelligence from the National University of Technology (NUTECH), Islamabad (2021–2025), and I am applying to MS/PhD programs abroad. My research investigates how AI systems fail and how to measure those failures reliably across vision, retrieval, and autonomous agents. Rather than relying solely on standard benchmarks, I design empirical evaluation protocols to quantify out-of-distribution drift and cross-dataset degradation.
+I recently graduated with a BS in Artificial Intelligence from the National University of Technology (NUTECH), Islamabad (2022–2026), and I am applying to MS/PhD programs abroad. My research investigates how AI systems fail and how to measure those failures reliably across vision, retrieval, and autonomous agents. Rather than relying solely on standard benchmarks, I design empirical evaluation protocols to quantify out-of-distribution drift and cross-dataset degradation.
 
 - 🔬 **Retrieval Evaluation:** Measuring dense embedding degradation on bilingual code-switched queries.
 - 👁️ **Medical & Forensic Vision:** Attention-based pathology screening and multimodal synthetic media detection.
