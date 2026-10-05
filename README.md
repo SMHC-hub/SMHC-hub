@@ -170,15 +170,18 @@ Question ──> Data/Split Protocol ──> Baseline ──> Model ──> Exte
 
 ---
 
-## 🤝 Let's Connect
-
+## 📊 GitHub Analytics & Activity
 <div align="center">
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:syedhuzaifachishty@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SMHC-hub)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/sashinoventures/sash-vpv-subcutaneous-vascular-palm-vein-data)
-
-<br/>
+  <img src="https://github-readme-stats.vercel.app/api?username=UmerZakria-dev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="SMHC's GitHub Stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmerZakria-dev&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
+</div>
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=UmerZakria-dev&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</div>
+---
+<div align="center">
+  <sub>Designed with ❤️ by <a href="https://github.com/SMHC-hub">HuzaifaChishty</a></sub>
+</div>
 
 Empirical evaluation, transparent baselines, and measurable system behavior.
 
