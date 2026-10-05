@@ -169,23 +169,24 @@ Question ──> Data/Split Protocol ──> Baseline ──> Model ──> Exte
 - **Core Study Areas:** `Computer Vision` `Deep Learning` `Natural Language Processing` `Machine Learning` `Data Structures & Algorithms` `Probability & Mathematical Statistics` `Linear Algebra`
 
 ---
+
 ## 📊 GitHub Analytics & Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SMHC-hub&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="SMHC's GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SMHC-hub&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=SMHC-hub&show_icons=true&bg_color=0b0f19&title_color=22d3ee&text_color=94a3b8&icon_color=38bdf8&border_color=1e293b&hide_border=false&count_private=true" alt="SMHC's GitHub Stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SMHC-hub&layout=compact&bg_color=0b0f19&title_color=22d3ee&text_color=94a3b8&border_color=1e293b&hide_border=false" alt="Top Languages" height="165" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SMHC-hub&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SMHC-hub&background=0b0f19&border=1e293b&stroke=22d3ee&ring=38bdf8&fire=22d3ee&currStreakLabel=38bdf8&sideNums=94a3b8&sideLabels=94a3b8&dates=64748b" alt="GitHub Streak" />
 </div>
 
 ---
 
 <div align="center">
-  <sub>Engineered with precision by <a href="https://github.com/SMHC-hub"><b>Syed Muhammad Huzaifa Chishty</b></a></sub>
+  <sub>Curated by <a href="https://github.com/SMHC-hub"><b>Syed Muhammad Huzaifa Chishty</b></a></sub>
   <br/>
   <sub><i>Empirical evaluation, transparent baselines, and measurable system behavior.</i></sub>
 </div>
