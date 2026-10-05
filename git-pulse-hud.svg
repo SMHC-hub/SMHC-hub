@@ -89,6 +89,11 @@
     <text x="0" y="14" class="sans" font-size="12" font-weight="700" fill="#f8fafc" letter-spacing="0.3">Empirical Commit &amp; Evaluation Waveform</text>
     <text x="0" y="30" class="sans" font-size="11" fill="#64748b">Multi-repository continuous integration across Vision, Retrieval &amp; Agent suites</text>
 
+    <!-- Wave Clip Path to strictly prevent any overflow -->
+    <clipPath id="wave_clip">
+      <rect x="0" y="42" width="480" height="120" rx="10" />
+    </clipPath>
+
     <!-- Synthetic Area Wave Graph Box -->
     <rect x="0" y="42" width="480" height="120" rx="10" fill="#090d16" stroke="#1e293b" stroke-width="1" />
 
@@ -101,29 +106,37 @@
     <line x1="240" y1="42" x2="240" y2="162" stroke="#1e293b" stroke-width="0.6" stroke-dasharray="4,4" />
     <line x1="360" y1="42" x2="360" y2="162" stroke="#1e293b" stroke-width="0.6" stroke-dasharray="4,4" />
 
-    <!-- Area Fill Under Wave -->
-    <path d="M 0 162 L 0 120 Q 30 110 60 135 T 120 90 T 180 110 T 240 70 T 300 85 T 360 55 T 420 75 T 480 50 L 480 162 Z" 
-          fill="url(#hud_cyan_purple)" fill-opacity="0.12" />
+    <!-- Bounded Wave Content inside ClipPath -->
+    <g clip-path="url(#wave_clip)">
+      <!-- Area Fill Under Wave -->
+      <path d="M 0 162 L 0 135 C 30 135, 45 110, 75 110 C 105 110, 115 130, 145 130 C 175 130, 185 85, 220 85 C 255 85, 270 122, 305 122 C 340 122, 360 72, 400 72 C 430 72, 445 62, 475 62 L 480 62 L 480 162 Z" 
+            fill="url(#hud_cyan_purple)" fill-opacity="0.15" />
 
-    <!-- Main Wave Line with Glowing Animation -->
-    <path d="M 0 120 Q 30 110 60 135 T 120 90 T 180 110 T 240 70 T 300 85 T 360 55 T 420 75 T 480 50" 
-          fill="none" stroke="url(#hud_cyan_purple)" stroke-width="2.5" filter="url(#glow)" />
+      <!-- Main Wave Line with Glowing Animation -->
+      <path d="M 0 135 C 30 135, 45 110, 75 110 C 105 110, 115 130, 145 130 C 175 130, 185 85, 220 85 C 255 85, 270 122, 305 122 C 340 122, 360 72, 400 72 C 430 72, 445 62, 475 62" 
+            fill="none" stroke="url(#hud_cyan_purple)" stroke-width="2.6" filter="url(#glow)" />
 
-    <!-- Active Pulse Marker on Wave -->
-    <circle cx="480" cy="50" r="4.5" fill="#f472b6" filter="url(#glow)">
-      <animate attributeName="r" values="3.5;5.5;3.5" dur="1.5s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="480" cy="50" r="9" fill="none" stroke="#f472b6" stroke-width="1" opacity="0.6">
-      <animate attributeName="r" values="5;14;5" dur="1.5s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.8;0;0.8" dur="1.5s" repeatCount="indefinite" />
-    </circle>
+      <!-- Milestone Activity Points on Wave -->
+      <circle cx="75" cy="110" r="3" fill="#22d3ee" />
+      <circle cx="220" cy="85" r="3.5" fill="#818cf8" />
+      <circle cx="400" cy="72" r="3.5" fill="#a78bfa" />
+
+      <!-- Active Pulsing Target Point at End -->
+      <circle cx="475" cy="62" r="4.5" fill="#f472b6" filter="url(#glow)">
+        <animate attributeName="r" values="3.5;5.5;3.5" dur="1.5s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="475" cy="62" r="9" fill="none" stroke="#f472b6" stroke-width="1.2" opacity="0.6">
+        <animate attributeName="r" values="4;12;4" dur="1.5s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.8;0;0.8" dur="1.5s" repeatCount="indefinite" />
+      </circle>
+    </g>
 
     <!-- Wave Graph Time Labels -->
-    <text x="12" y="154" class="mono" font-size="9" fill="#475569">Q2 '24</text>
-    <text x="125" y="154" class="mono" font-size="9" fill="#475569">Q3 '24</text>
-    <text x="245" y="154" class="mono" font-size="9" fill="#475569">Q4 '24</text>
-    <text x="365" y="154" class="mono" font-size="9" fill="#475569">Q1 '25</text>
-    <text x="445" y="154" class="mono" font-size="9" fill="#22d3ee" font-weight="700">NOW</text>
+    <text x="14" y="154" class="mono" font-size="9" fill="#64748b">Q2 '24</text>
+    <text x="125" y="154" class="mono" font-size="9" fill="#64748b">Q3 '24</text>
+    <text x="245" y="154" class="mono" font-size="9" fill="#64748b">Q4 '24</text>
+    <text x="365" y="154" class="mono" font-size="9" fill="#64748b">Q1 '25</text>
+    <text x="445" y="154" class="mono" font-size="9" fill="#22d3ee" font-weight="700">ACTIVE</text>
 
     <!-- Metric Badges Row Below Wave -->
     <g transform="translate(0, 172)">
