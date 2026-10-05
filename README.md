@@ -173,7 +173,7 @@ Question ──> Data/Split Protocol ──> Baseline ──> Model ──> Exte
 ## ⚡ Real-Time System & Code Telemetry
 
 <div align="center">
-  <img src="./git-pulse-hud.svg" alt="Live Code Telemetry HUD" width="100%" />
+  <img src="./git-pulse-hud.svg?v=3" alt="Live Code Telemetry HUD" width="100%" />
 </div>
 
 <br/>
