@@ -170,24 +170,17 @@ Question ──> Data/Split Protocol ──> Baseline ──> Model ──> Exte
 
 ---
 
-## 📊 GitHub Analytics & Activity
+## 📈 Engineering Velocity & Activity Waveform
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SMHC-hub&show_icons=true&bg_color=00000000&title_color=38bdf8&text_color=cbd5e1&icon_color=22d3ee&hide_border=true&count_private=true" alt="SMHC's GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SMHC-hub&layout=compact&bg_color=00000000&title_color=38bdf8&text_color=cbd5e1&hide_border=true" alt="Top Languages" height="165" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SMHC-hub&theme=react-dark&bg_color=0b0f19&color=22d3ee&line=38bdf8&point=f8fafc&area=true&hide_border=true&custom_title=SMHC%20Engineering%20Rhythm%20%26%20Commit%20Frequency" alt="Commit Frequency Graph" width="100%" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SMHC-hub&theme=transparent&hide_border=true&stroke=38bdf8&ring=22d3ee&fire=22d3ee&currStreakLabel=38bdf8" alt="GitHub Streak" />
-</div>
-
----
-
-<div align="center">
-  <sub>Curated by <a href="https://github.com/SMHC-hub"><b>Syed Muhammad Huzaifa Chishty</b></a></sub>
-  <br/>
-  <sub><i>Empirical evaluation, transparent baselines, and measurable system behavior.</i></sub>
+  <img src="https://img.shields.io/badge/Focus-Vision%20%7C%20Retrieval%20%7C%20Agents-22d3ee?style=for-the-badge&logo=target&logoColor=black" />
+  <img src="https://img.shields.io/badge/Language%20Core-Python%20%7C%20PyTorch%20%7C%20TS-38bdf8?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/System%20Status-All%20Pipelines%20Passing-10b981?style=for-the-badge&logo=githubactions&logoColor=white" />
 </div>
 
