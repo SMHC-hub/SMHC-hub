@@ -173,8 +173,8 @@ Production Deployment & Gate     ──► FastAPI microservices with CI behavio
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SMHC-hub&layout=donut&theme=tokyonight&hide_border=true" alt="Language Distribution Donut" height="190" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SMHC-hub&theme=tokyonight&hide_border=true" alt="Streak Stats" height="190" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SMHC-hub&layout=donut&theme=tokyonight&hide_border=true&hide=jupyter%20notebook&v=2" alt="Language Distribution Donut" height="190" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SMHC-hub&theme=tokyonight&hide_border=true&nocache=true&v=2" alt="Streak Stats" height="190" />
 </div>
 
 ---
