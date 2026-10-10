@@ -88,8 +88,8 @@ Trace Stream ──> PII Sanitizer ──> LLM Judge (Quote Verified) ──> St
 
 ---
 
-### 3. [SASH-VPV-Portal](https://github.com/SMHC-hub/SASH-VPV-Portal) — Contactless Biometric Authentication Platform
-*Hardware-integrated near-infrared (NIR) palm-vein identity verification and access management platform.*
+### 3. [SASH-VPV-Biometric-System](https://github.com/SMHC-hub/SASH-VPV-Biometric-System) — Contactless NIR Biometric Platform
+*Contactless near-infrared (NIR) palm-vein recognition platform and hardware-integrated authentication.*
 
 - **Key Engineering Highlights:**
   - Custom Ctypes hardware driver interfacing NIR scanners with sub-second biometric feature extraction and feature matching.
@@ -99,8 +99,8 @@ Trace Stream ──> PII Sanitizer ──> LLM Judge (Quote Verified) ──> St
 
 ---
 
-### 4. [glaucoma-detection-fyp](https://github.com/SMHC-hub/glaucoma-detection-fyp) — Attention-Guided Medical Diagnostic Screening
-*Deep learning pipeline for glaucoma screening from fundus images utilizing composite multi-channel inputs and attention.*
+### 4. [GlaucoVision-AI](https://github.com/SMHC-hub/GlaucoVision-AI) — Attention-Guided Clinical Diagnostic Screening
+*Multi-channel EfficientNet-B3 with CBAM attention and CDR-guided explainability for glaucoma screening.*
 
 - **Key Engineering Highlights:**
   - EfficientNet-B3 + CBAM attention model trained on 6-channel composite inputs with Cup-to-Disc Ratio (CDR) guided loss.
@@ -124,10 +124,10 @@ Trace Stream ──> PII Sanitizer ──> LLM Judge (Quote Verified) ──> St
 
 | Repository | Focus & Architecture | Stack |
 | :--- | :--- | :--- |
-| [**palm-vein-multimodel**](https://github.com/SMHC-hub/palm-vein-multimodel) | 11-CNN score-level fusion ensemble for contactless palm-vein biometric verification across FYODB and PLUSVein cohorts. | `PyTorch` `OpenCV` `scikit-learn` `NumPy` |
+| [**PalmFusion**](https://github.com/SMHC-hub/PalmFusion) | 11-architecture score-level fusion ensemble for contactless palm-vein biometric verification across FYODB and PLUSVein cohorts. | `PyTorch` `OpenCV` `scikit-learn` `NumPy` |
 | [**People-AI**](https://github.com/SMHC-hub/People-AI) | Predictive workforce attrition intelligence platform with gradient-boosted decision trees and SHAP feature explainability. | `FastAPI` `Vue 3` `Laravel 11` `XGBoost` `SHAP` |
-| [**deepfake-detection**](https://github.com/SMHC-hub/deepfake-detection) | Multimodal media forensic baseline fusing spatial CNN visual streams with frozen Wav2Vec2 acoustic representations. | `PyTorch` `Wav2Vec2` `OpenCV` `Librosa` |
-| [**Gesture-Recognition**](https://github.com/SMHC-hub/Gesture-Recognition-Live-Using-Custom-Dataset) | Real-time 36-class alphanumeric sign classification using 3D spatial hand landmarks and low-latency inference. | `TensorFlow` `MediaPipe` `OpenCV` `Python` |
+| [**DeepfakeGuard**](https://github.com/SMHC-hub/DeepfakeGuard) | Multimodal audio-visual deepfake detection across three generations with explainable AI (spatial CNN + Wav2Vec2). | `PyTorch` `Wav2Vec2` `OpenCV` `Librosa` |
+| [**GestureVision-AI**](https://github.com/SMHC-hub/GestureVision-AI) | Real-time 36-class alphanumeric sign classification using MediaPipe 3D hand landmarks and deep CNN inference. | `TensorFlow` `MediaPipe` `OpenCV` `Python` |
 
 ---
 
