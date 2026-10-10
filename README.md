@@ -2,7 +2,8 @@
 
 # Syed Muhammad Huzaifa Chishty
 
-### BS Artificial Intelligence · Computer Vision · Retrieval Research · Agent Evaluation
+### Full-Stack AI & Machine Learning Engineer
+**Deep Learning · Production Multi-Agent Systems · Computer Vision · MLOps**
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:syedhuzaifachishty@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SMHC-hub)
@@ -11,109 +12,24 @@
 <br/>
 
 <a href="https://github.com/SMHC-hub">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=22D3EE&center=true&vCenter=true&width=620&lines=Computer+Vision+%26+Biometrics;Urdu-English+Retrieval+Research;Agent+Behavioral+Evaluation;" alt="Typing Animation: Research Areas " />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=22D3EE&center=true&vCenter=true&width=650&lines=Full-Stack+AI+%26+Machine+Learning+Systems;Applied+Computer+Vision+%26+Biometrics;Autonomous+Agent+Architectures+%26+CI+Gates;Dense+Retrieval+%26+Empirical+Evaluation;" alt="Typing Animation: Core Focus Areas" />
 </a>
 
 </div>
 
 ---
 
-## 🧭 About Me
+## 🧭 Engineering Overview
 
-I recently graduated with a BS in Artificial Intelligence from the National University of Technology (NUTECH), Islamabad (2022–2026), and I am applying to MS/PhD programs abroad. My research investigates how AI systems fail and how to measure those failures reliably across vision, retrieval, and autonomous agents. Rather than relying solely on standard benchmarks, I design empirical evaluation protocols to quantify out-of-distribution drift and cross-dataset degradation.
+I am a **Full-Stack AI and Machine Learning Engineer** who designs, trains, and ships production AI systems from end to end — bridging custom deep learning architectures, rigorous empirical evaluation, containerized backend microservices, and reactive full-stack interfaces.
 
-- 🔬 **Retrieval Evaluation:** Measuring dense embedding degradation on bilingual code-switched queries.
-- 👁️ **Medical & Forensic Vision:** Attention-based pathology screening and multimodal synthetic media detection.
-- 🖐️ **Biometric Authentication:** Infrared vascular feature extraction and multi-model score-level fusion.
-- 🤖 **Agent Reliability:** Continuous integration test gates and statistical drift detection for conversational agents.
-- 📊 **Dataset Curation:** Publishing real-world near-infrared biometrics with cross-sensor verification benchmarks.
-- 🎓 **Graduate Focus:** Seeking doctoral and masters research groups in empirical AI evaluation and vision systems.
+Rather than treating AI as isolated scripts or black-box wrappers, my engineering focus centers on **systemic reliability, deterministic safety rails, and out-of-distribution robustness**:
 
----
-
-## 🎯 Current Focus
-
-| Area | What I'm building |
-| :--- | :--- |
-| **Vision** | Open-set and EER evaluation for 11-CNN palm-vein fusion across cross-sensor cohorts. |
-| **Retrieval** | Quantifying tokenization and embedding collapse under Roman Urdu transliterations on BEIR corpora. |
-| **Agents / Evaluation** | Calibrated LLM judges with code-enforced quote verification to eliminate evaluator false positives in CI. |
-| **Datasets** | Maintaining the SASH-VPV subcutaneous palm-vein benchmark dataset on Kaggle. |
-
----
-
-## 🚀 Featured Engineering Projects
-
-### 1. [urdu-english-retrieval-benchmark](https://github.com/SMHC-hub/urdu-english-retrieval-benchmark)
-
-Empirical study measuring how dense retrieval models degrade on Urdu-English code-switched queries against English BEIR corpora.
-
-- **Highlights:**
-  - Evaluated 4 dense embedding models (`e5-base-v2`, `bge-base-en-v1.5`, `multilingual-e5-base`, `bge-m3`) across SciFact and NFCorpus.
-  - Observed up to a 20.6% nDCG@10 drop on paired code-switched queries; identified `bge-m3` degradation on Roman Urdu transliterations.
-- **Stack:** `Python` `BEIR` `sentence-transformers` `PyTorch` `Groq` `Jupyter`
-
----
-
-### 2. [glaucoma-detection-fyp](https://github.com/SMHC-hub/glaucoma-detection-fyp)
-
-Glaucoma screening pipeline from fundus images combining multi-channel decomposition, attention mechanisms, and visual explanations.
-
-- **Highlights:**
-  - EfficientNet-B3 + CBAM on 6-channel composite inputs with CDR-aware loss; achieved AUC 0.9273 on SMDG-19 (89.1% sens., 77.35% spec.).
-  - External validation on ACRIMA (705 images) yielded AUC 0.7887 without fine-tuning; documented failed V2 over-parameterization.
-- **Stack:** `PyTorch` `timm` `Albumentations` `Grad-CAM` `OpenCV`
-
-```
-Fundus (6-Ch) ──> EfficientNet-B3 + CBAM ──> Logits (0.9273 AUC) ──> ACRIMA External (0.7887)
-```
-
----
-
-### 3. [AgentPulse](https://github.com/SMHC-hub/AgentPulse)
-
-Pre-deployment CI behavioral gate and runtime statistical drift monitoring for conversational AI agents.
-
-- **Highlights:**
-  - Pre-deployment persona tests with fail-under thresholds and live drift detection using two-proportion z-tests (p < 0.01, Δ ≥ 5%).
-  - Calibrated LLM judge with verbatim transcript quote verification, achieving κ = 0.82 agreement with human annotators (n=200).
-- **Stack:** `Python` `FastAPI` `Next.js` `PostgreSQL` `Redis` `Docker`
-
-```
-Ingest (Traces) ──> PII Scrub ──> LLM Judge (Quote Guard) ──> z-Test Drift ──> CI Gate / Alert
-```
-
----
-
-### 4. [SASH-VPV-Portal](https://github.com/SMHC-hub/SASH-VPV-Portal)
-
-Contactless near-infrared (NIR) palm-vein recognition system and role-based biometric authentication portal.
-
-- **Highlights:**
-  - Ctypes wrapper for NIR hardware scanner with sub-second matching; multi-role React frontend (admin, employee, kiosk).
-  - Curated and published the SASH-VPV dataset on Kaggle (2,667 images across 122 subjects; Flutter wallet in progress).
-- **Stack:** `Python` `PyTorch` `FastAPI` `React` `Flutter` `OpenCV`
-
----
-
-### 5. [palm-vein-multimodel](https://github.com/SMHC-hub/palm-vein-multimodel)
-
-11-CNN score-level fusion study for contactless palm-vein verification on FYODB (150 classes, 6,000 images).
-
-- **Highlights:**
-  - Evaluated score-level fusion across 11 architectures with CLAHE and TTA; external cross-check on PLUSVein.
-  - Closed-set accuracy saturates near 100%; open-set and EER evaluation in progress. Team project (Role: Lead Architecture & Fusion).
-- **Stack:** `PyTorch` `OpenCV` `scikit-learn` `NumPy`
-
----
-
-## 🔬 Other AI/ML Projects
-
-| Project | What | Technologies |
-| :--- | :--- | :--- |
-| [**People-AI**](https://github.com/SMHC-hub/People-AI) | Workforce attrition prediction with XGBoost and SHAP explainability (ROC-AUC 0.942 on synthetic data). | `Vue 3` `Laravel 11` `FastAPI` `XGBoost` `SHAP` |
-| [**deepfake-detection**](https://github.com/SMHC-hub/deepfake-detection) | Multimodal forensic baseline combining residual CNN and frozen Wav2Vec2 (ROC-AUC 0.66 with failure analysis). | `PyTorch` `Wav2Vec2` `OpenCV` `Librosa` |
-| [**Gesture-Recognition**](https://github.com/SMHC-hub/Gesture-Recognition-Live-Using-Custom-Dataset) | Real-time 36-class alphanumeric sign classification using MediaPipe landmark extraction. | `Python` `TensorFlow` `MediaPipe` `OpenCV` |
+- 🚀 **Production Multi-Agent Platforms:** Architecting stateful LangGraph & CrewAI orchestrators with AST-enforced SQL execution, deterministic arithmetic engines, and real-time SSE telemetry.
+- 👁️ **Applied Computer Vision & Biometrics:** Engineering attention-guided clinical diagnostic pipelines (EfficientNet + CBAM) and contactless infrared vascular authentication systems with Ctypes scanner drivers.
+- 🛡️ **Continuous Evaluation & AI Observability:** Building pre-deployment behavioral CI gates and live statistical drift monitors (two-proportion z-tests) to catch agent regressions before production.
+- 🔬 **Information Retrieval & Embeddings:** Benchmarking dense embedding models on challenging bilingual code-switched distributions against standardized BEIR corpora.
+- 📊 **Empirical Dataset Curation:** Creator and maintainer of the open-access **SASH-VPV Subcutaneous Palm-Vein Dataset** on Kaggle (2,667 NIR biometric samples).
 
 ---
 
@@ -123,57 +39,135 @@ Contactless near-infrared (NIR) palm-vein recognition system and role-based biom
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white" alt="Vue 3" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/LangGraph-FF6F00?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph" />
 </p>
 
-- **Deep Learning & Computer Vision:** `PyTorch` `torchvision` `timm` `Albumentations` `Grad-CAM` `OpenCV` `MediaPipe`
-- **Retrieval & NLP:** `sentence-transformers` `BEIR` `HuggingFace Transformers` `Groq API` `Jupyter`
-- **Systems & Infrastructure:** `Vue 3` `Laravel 11` `FastAPI` `Python` `Docker` `PostgreSQL` `Redis` `React` `Next.js` `Flutter`
-- **Evaluation & Tabular Modeling:** `scikit-learn` `XGBoost` `SHAP` `Two-Proportion z-Test` `Cohen's kappa`
+* **Deep Learning & Computer Vision:** `PyTorch`, `torchvision`, `timm`, `Albumentations`, `Grad-CAM`, `OpenCV`, `MediaPipe`, `scikit-learn`
+* **Agentic Systems & NLP:** `LangGraph`, `CrewAI`, `ChromaDB`, `sentence-transformers`, `BEIR`, `Hugging Face Transformers`, `Groq API`
+* **Backend & Cloud Infrastructure:** `FastAPI`, `Docker`, `PostgreSQL`, `Redis`, `SQLAlchemy`, `Pydantic v2`, `Server-Sent Events (SSE)`, `WebSockets`
+* **Full-Stack & Frontend:** `React 18`, `Next.js`, `TypeScript`, `Vue 3`, `TailwindCSS`, `Framer Motion`, `Recharts`
+* **MLOps & Quality Assurance:** `pytest`, `GitHub Actions CI/CD`, `SHAP`, `Two-Proportion z-Tests`, `Git LFS`
 
 ---
 
-## 📐 How I Evaluate
+## 🚀 Flagship Engineered Systems
+
+### 1. [NexusBI](https://github.com/SMHC-hub/NexusBI) — Autonomous Multi-Agent BI & Strategic Decision Platform
+*Enterprise autonomous executive intelligence platform orchestrating specialized agents through stateful DAG workflows.*
+
+- **Key Engineering Highlights:**
+  - Dynamic LangGraph state machine orchestrating 10+ specialized agents (Data Analyst, Market Sizer, Risk Matrix, Red-Team Critic, Narrative Storyteller).
+  - Deterministic computational layer with AST-level SQL validation preventing destructive operations and zero-hallucination financial math.
+  - Sub-second SSE event streaming to a responsive React workspace with Human-in-the-Loop (HITL) executive review gates.
+- **Tech Stack:** `FastAPI` `LangGraph` `CrewAI` `ChromaDB` `React` `Docker` `SQLite/PostgreSQL`
 
 ```
-Question ──> Data/Split Protocol ──> Baseline ──> Model ──> External Validation ──> Release
+User Query ──> Planner (DAG) ──> Specialist Swarm <──> AST-Safe SQL & Tools ──> Critic Loop ──> HITL Gate ──> Executive Dossier
 ```
 
-1. **Negative Results & Honest Reporting:** Report external domain drops upfront (e.g. ACRIMA AUC 0.7887 vs 0.9273 internal; documented failed V2 architecture).
-2. **Cross-Domain Generalization:** Validate on independent datasets (ACRIMA, PLUSVein, BEIR) rather than relying solely on saturated closed-set benchmarks.
-3. **Evidence-Grounded Evaluators:** Require verbatim transcript quotes in LLM evaluations to prevent false compliance alarms in CI gates.
-4. **Paired Measurements:** Evaluate degradation on exact paired subsets (e.g. 136 code-switched queries) rather than masking drops in corpus averages.
+---
+
+### 2. [AgentPulse](https://github.com/SMHC-hub/AgentPulse) — CI Behavioral Evaluation Gate & Statistical Drift Observability
+*Continuous integration testing gate and production runtime telemetry for conversational AI agents.*
+
+- **Key Engineering Highlights:**
+  - Automated pre-deployment persona regression testing with configurable pass/fail CI thresholds.
+  - Real-time statistical drift detector using two-proportion hypothesis z-tests ($p < 0.01, \Delta \ge 5\%$) to detect behavioral decay.
+  - Calibrated LLM evaluator with code-enforced transcript quote extraction, achieving $\kappa = 0.82$ inter-rater agreement with human ground truth.
+- **Tech Stack:** `Python` `FastAPI` `Next.js` `PostgreSQL` `Redis` `Docker` `GitHub Actions`
+
+```
+Trace Stream ──> PII Sanitizer ──> LLM Judge (Quote Verified) ──> Statistical z-Test ──> CI Gate / Discord & Slack Alerts
+```
 
 ---
 
-## 📑 Research and Datasets
+### 3. [SASH-VPV-Portal](https://github.com/SMHC-hub/SASH-VPV-Portal) — Contactless Biometric Authentication Platform
+*Hardware-integrated near-infrared (NIR) palm-vein identity verification and access management platform.*
 
-- **SASH-VPV Subcutaneous Vascular Palm Vein Dataset:** 2,667 infrared images across 122 subjects captured with specialized NIR sensors for contactless biometric authentication benchmarks.  
-  [![Kaggle Dataset](https://img.shields.io/badge/Kaggle-Dataset%20Page-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/sashinoventures/sash-vpv-subcutaneous-vascular-palm-vein-data)
-
-<!-- Preprints placeholder: add entries once submitted/released -->
+- **Key Engineering Highlights:**
+  - Custom Ctypes hardware driver interfacing NIR scanners with sub-second biometric feature extraction and feature matching.
+  - Multi-tier production portal featuring role-based access control (Admin, Employee, Kiosk terminal) and real-time verification feedback.
+  - Companion creator and curator of the public **SASH-VPV benchmark dataset on Kaggle** (2,667 images across 122 subjects).
+- **Tech Stack:** `Python` `PyTorch` `FastAPI` `React` `OpenCV` `Ctypes` `Kaggle API`
 
 ---
 
-## 🎓 Education
+### 4. [glaucoma-detection-fyp](https://github.com/SMHC-hub/glaucoma-detection-fyp) — Attention-Guided Medical Diagnostic Screening
+*Deep learning pipeline for glaucoma screening from fundus images utilizing composite multi-channel inputs and attention.*
+
+- **Key Engineering Highlights:**
+  - EfficientNet-B3 + CBAM attention model trained on 6-channel composite inputs with Cup-to-Disc Ratio (CDR) guided loss.
+  - Achieved **0.9273 AUC** (89.1% sensitivity, 77.35% specificity) on internal SMDG-19 benchmark.
+  - Validated out-of-distribution robustness against external clinical cohort ACRIMA (705 fundus images) yielding **0.7887 AUC** zero-shot.
+- **Tech Stack:** `PyTorch` `timm` `Albumentations` `Grad-CAM` `OpenCV` `scikit-learn`
+
+---
+
+### 5. [urdu-english-retrieval-benchmark](https://github.com/SMHC-hub/urdu-english-retrieval-benchmark) — Dense Retrieval Degradation Study
+*Empirical evaluation quantifying neural embedding model degradation under Urdu-English code-switched queries.*
+
+- **Key Engineering Highlights:**
+  - Evaluated state-of-the-art dense embedding models (`e5-base-v2`, `bge-base-en-v1.5`, `multilingual-e5-base`, `bge-m3`) against BEIR benchmark corpora.
+  - Quantified up to **20.6% nDCG@10 degradation** on paired code-switched queries, isolating tokenization collapse on Roman Urdu transliterations.
+- **Tech Stack:** `Python` `BEIR` `sentence-transformers` `PyTorch` `Hugging Face`
+
+---
+
+## 🔬 Specialized AI/ML Implementations
+
+| Repository | Focus & Architecture | Stack |
+| :--- | :--- | :--- |
+| [**palm-vein-multimodel**](https://github.com/SMHC-hub/palm-vein-multimodel) | 11-CNN score-level fusion ensemble for contactless palm-vein biometric verification across FYODB and PLUSVein cohorts. | `PyTorch` `OpenCV` `scikit-learn` `NumPy` |
+| [**People-AI**](https://github.com/SMHC-hub/People-AI) | Predictive workforce attrition intelligence platform with gradient-boosted decision trees and SHAP feature explainability. | `FastAPI` `Vue 3` `Laravel 11` `XGBoost` `SHAP` |
+| [**deepfake-detection**](https://github.com/SMHC-hub/deepfake-detection) | Multimodal media forensic baseline fusing spatial CNN visual streams with frozen Wav2Vec2 acoustic representations. | `PyTorch` `Wav2Vec2` `OpenCV` `Librosa` |
+| [**Gesture-Recognition**](https://github.com/SMHC-hub/Gesture-Recognition-Live-Using-Custom-Dataset) | Real-time 36-class alphanumeric sign classification using 3D spatial hand landmarks and low-latency inference. | `TensorFlow` `MediaPipe` `OpenCV` `Python` |
+
+---
+
+## 📐 System Design & Evaluation Standards
+
+```
+Business / Engineering Objective
+        │
+        ▼
+Rigorous Split & Baseline Setup  ──► Zero data leakage; distinct external test sets
+        │
+        ▼
+Model & Architecture Execution   ──► PyTorch / LangGraph deterministic guardrails
+        │
+        ▼
+External Domain Validation       ──► Quantify cross-sensor & out-of-distribution drop
+        │
+        ▼
+Production Deployment & Gate     ──► FastAPI microservices with CI behavioral tests
+```
+
+1. **Honest Metric Reporting:** Always report out-of-distribution external drops upfront (e.g., 0.7887 ACRIMA external vs 0.9273 internal AUC).
+2. **Deterministic Safety over Hype:** LLMs are paired with AST parsers, code-verified quote extractors, and unit-tested arithmetic calculators.
+3. **Reproducible Pipelines:** Structured datasets, standardized configurations, and automated CI tests.
+
+---
+
+## 🎓 Education & Background
 
 **National University of Technology (NUTECH)** — Islamabad, Pakistan  
 *Bachelor of Science in Artificial Intelligence* | 2022 – 2026
 
-- **Core Study Areas:** `Computer Vision` `Deep Learning` `Natural Language Processing` `Machine Learning` `Data Structures & Algorithms` `Probability & Mathematical Statistics` `Linear Algebra`
+* **Core Competencies:** `Deep Learning & Computer Vision` `Distributed AI Systems` `Natural Language Processing` `Data Structures & Algorithms` `Applied Probability & Linear Algebra`
 
 ---
 
-## ⚡ Real-Time System & Code Telemetry
+## 📊 Ecosystem Overview & Activity
 
 <div align="center">
-  <img src="./git-pulse-hud.svg?v=3" alt="Live Code Telemetry HUD" width="100%" />
+  <img src="./git-pulse-hud.svg?v=3" alt="Engineering Ecosystem HUD" width="100%" />
 </div>
 
 <br/>
@@ -185,7 +179,7 @@ Question ──> Data/Split Protocol ──> Baseline ──> Model ──> Exte
 
 ---
 
-## 🤝 Let's Connect
+## 🤝 Contact & Collaboration
 
 <div align="center">
 
@@ -195,6 +189,6 @@ Question ──> Data/Split Protocol ──> Baseline ──> Model ──> Exte
 
 <br/>
 
-Empirical evaluation, transparent baselines, and measurable system behavior.
+**Production-grade AI systems, empirical robustness, and measurable engineering outcomes.**
 
 </div>
