@@ -191,4 +191,8 @@ Production Deployment & Gate     ──► FastAPI microservices with CI behavio
 
 **Production-grade AI systems, empirical robustness, and measurable engineering outcomes.**
 
+<br/>
+
+<sub>Repository documentation and architectures licensed under [MIT](LICENSE). Copyright © 2026 Syed Muhammad Huzaifa Chishty.</sub>
+
 </div>
