@@ -149,7 +149,7 @@ External Domain Validation       ──► Quantify cross-sensor & out-of-distri
 Production Deployment & Gate     ──► FastAPI microservices with CI behavioral tests
 ```
 
-1. **Honest Metric Reporting:** Always report out-of-distribution external drops upfront (e.g., 0.7887 ACRIMA external vs 0.9273 internal AUC).
+1. **Honest Metric Reporting:** Always reports out-of-distribution external drops upfront (e.g., 0.7887 ACRIMA external vs 0.9273 internal AUC).
 2. **Deterministic Safety over Hype:** LLMs are paired with AST parsers, code-verified quote extractors, and unit-tested arithmetic calculators.
 3. **Reproducible Pipelines:** Structured datasets, standardized configurations, and automated CI tests.
 
