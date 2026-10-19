@@ -62,7 +62,7 @@ Rather than treating AI as isolated scripts or black-box wrappers, my engineerin
 *Enterprise autonomous executive intelligence platform orchestrating specialized agents through stateful DAG workflows.*
 
 - **Key Engineering Highlights:**
-  - Dynamic LangGraph state machine orchestrating 10+ specialized agents (Data Analyst, Market Sizer, Risk Matrix, Red-Team Critic, Narrative Storyteller).
+  - Dynamic LangGraph state machine orchestrating 10+ specialized agents (Data Analyst, Market Sizer , Risk Matrix, Red-Team Critic, Narrative Storyteller).
   - Deterministic computational layer with AST-level SQL validation preventing destructive operations and zero-hallucination financial math.
   - Sub-second SSE event streaming to a responsive React workspace with Human-in-the-Loop (HITL) executive review gates.
 - **Tech Stack:** `FastAPI` `LangGraph` `CrewAI` `ChromaDB` `React` `Docker` `SQLite/PostgreSQL`
